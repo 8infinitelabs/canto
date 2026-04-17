@@ -1,8 +1,8 @@
 {
   "name": "canto-claude",
-  "displayName": "Canto for Claude Code",
+  "displayName": "Canto Markdown Editor",
   "description": "Edit CLAUDE.md, memories, and plans visually, right inside your IDE. Built for Claude Code users.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "infinitelabs",
   "author": {
     "name": "Infinite Labs",
