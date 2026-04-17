@@ -2,7 +2,7 @@
   "name": "canto-claude",
   "displayName": "Canto Markdown Editor",
   "description": "Edit CLAUDE.md, memories, and plans visually, right inside your IDE. Built for Claude Code users.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "infinitelabs",
   "author": {
     "name": "Infinite Labs",
@@ -121,13 +121,21 @@
       "properties": {
         "canto.defaultMode": {
           "type": "string",
-          "enum": ["wysiwyg", "ir", "sv"],
+          "enum": [
+            "wysiwyg",
+            "ir",
+            "sv"
+          ],
           "default": "wysiwyg",
           "description": "Default editor mode: WYSIWYG, Instant Rendering, or Split View."
         },
         "canto.theme": {
           "type": "string",
-          "enum": ["auto", "dark", "light"],
+          "enum": [
+            "auto",
+            "dark",
+            "light"
+          ],
           "default": "auto",
           "description": "Editor theme — follows VS Code by default."
         }
