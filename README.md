@@ -36,7 +36,7 @@ A second tree view showing all markdown in the workspace: root files first, then
 ## Install
 
 ```sh
-code --install-extension infinitelabs.canto
+code --install-extension infinitelabs.canto-claude
 ```
 
 Or search for **Canto** in the Extensions panel.

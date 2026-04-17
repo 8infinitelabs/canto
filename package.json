@@ -1,5 +1,5 @@
 {
-  "name": "canto",
+  "name": "canto-claude",
   "displayName": "Canto — Claude's markdown companion",
   "description": "Edit CLAUDE.md, memories, and plans visually, right inside your IDE. Built for Claude Code users.",
   "version": "0.1.1",

@@ -153,10 +153,10 @@ If something goes wrong:
 
 ```sh
 # Remove a specific version
-npx @vscode/vsce unpublish infinitelabs.canto 0.1.0
+npx @vscode/vsce unpublish infinitelabs.canto-claude 0.1.0
 
 # Fully delist the extension
-npx @vscode/vsce unpublish infinitelabs.canto
+npx @vscode/vsce unpublish infinitelabs.canto-claude
 ```
 
 You can also manage the extension at https://marketplace.visualstudio.com/manage/publishers/infinitelabs.
