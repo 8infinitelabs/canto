@@ -1,5 +1,11 @@
 # Canto Changelog
 
+## 0.1.2 — 2026-04-17
+
+- Display name: "Canto for Claude Code" (the shorter "Canto" was taken
+  in the Marketplace). The product is still Canto — just more specific
+  in the listing for discoverability.
+
 ## 0.1.1 — 2026-04-17
 
 - Publisher: Infinite Labs OÜ (`infinitelabs`)
