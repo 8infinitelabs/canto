@@ -1,5 +1,12 @@
 # Canto Changelog
 
+## 0.1.5 — 2026-04-20
+
+- **Vditor bundled locally** — no more CDN dependency. Editor loads instantly even offline.
+- **Sync loop fixed** — debounced input (150ms) + echo prevention eliminates the freeze-on-type bug.
+- **Default editor for .md** — Canto now opens `.md` files directly; no more "Open With" required.
+- **Cleaner init** — Vditor buffers content until fully ready, preventing blank-editor flashes.
+
 ## 0.1.4 — 2026-04-17
 
 - Now also published to [Open VSX Registry](https://open-vsx.org/extension/infinitelabs/canto-claude) — installable from Cursor, Windsurf, VSCodium, Gitpod, and Theia.

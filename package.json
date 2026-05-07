@@ -2,7 +2,7 @@
   "name": "canto-claude",
   "displayName": "Canto Markdown Editor",
   "description": "Edit CLAUDE.md, memories, and plans visually, right inside your IDE. Built for Claude Code users.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "infinitelabs",
   "author": {
     "name": "Infinite Labs",
@@ -116,6 +116,14 @@
         }
       ]
     },
+    "customEditors": [
+      {
+        "viewType": "canto.markdownEditor",
+        "displayName": "Canto WYSIWYG",
+        "selector": [{ "filenamePattern": "*.md" }],
+        "priority": "default"
+      }
+    ],
     "configuration": {
       "title": "Canto",
       "properties": {
@@ -143,9 +151,11 @@
     }
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "npm run copy-vditor && npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
+    "postinstall": "npm run copy-vditor",
+    "copy-vditor": "node scripts/copy-vditor.js",
     "package": "vsce package",
     "publish": "vsce publish"
   },
@@ -153,6 +163,7 @@
     "@types/node": "^20.11.0",
     "@types/vscode": "^1.85.0",
     "@vscode/vsce": "^3.2.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vditor": "^3.10.9"
   }
 }
