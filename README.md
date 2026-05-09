@@ -2,7 +2,7 @@
 
 > Edit `CLAUDE.md`, memories, plans, and all your markdown — visually, right inside your IDE.
 
-[![Website](https://img.shields.io/badge/website-canto.infinitelabs.co-D67059?style=for-the-badge)](https://canto.infinitelabs.co)
+[![Website](https://img.shields.io/badge/website-canto.infinitelabs.co-8B5CF6?style=for-the-badge)](https://canto.infinitelabs.co)
 [![GitHub](https://img.shields.io/badge/github-8infinitelabs%2Fcanto-24292F?style=for-the-badge&logo=github)](https://github.com/8infinitelabs/canto)
 [![Report an issue](https://img.shields.io/badge/issues-welcome-8B5CF6?style=for-the-badge)](https://github.com/8infinitelabs/canto/issues)
 
